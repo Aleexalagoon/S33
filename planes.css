@@ -10,7 +10,7 @@
   padding: 20px; /* PARA AGREGAR ESPACIO DE RELLENO ALREDEDOR DEL CONTENIDO INTERNO */
   background-color: #4a4a4a; /* PARA PONER EL COLOR DE FONDO */
   color: #ffffff;
-  border-radius: 3%;
+  border-radius: 3%; 
 }
 
 .plan.highlight {
