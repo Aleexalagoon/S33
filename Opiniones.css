@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.body{
+    align-items: middle;
+}
+.carrusel {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    background-color: #333;
+    align-items: middle;
+}
+
+.contenedor-opiniones {
+    display: inline-flex;
+    animation: desplazamiento 20s linear infinite;
+}
+
+@keyframes desplazamiento {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(-20%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.opinion {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 20px;
+    white-space: normal;
+    width: 1000px;
+    height: auto;
+}
+
+.imagen-usuario {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.texto-opinion {
+    max-width: 300px;
+}
+
+.estrellas {
+    color: gold;
+    font-size: 18px;
+    display: block;
+}
+
+.texto {
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 100;
+}

@@ -1,0 +1,80 @@
+/*------------------------Inicio--------------*/
+.social-media {
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+}
+
+.text-column {
+  flex: 1;
+  margin-top: 20px;
+  color:white;
+  padding-right: 50px;
+}
+
+.image-column {
+  flex: 1;
+}
+.social-media h1 {
+  padding-top: 15px;
+  font-size: 30px;
+}
+
+.social-media h2 {
+  font-size: 24px;
+}
+
+.social-media p {
+  font-size: 16px;
+}
+
+.social-media img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+
+/*------------------------Servicios--------------*/
+/* Estilos para el contenedor principal */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Estilos para los servicios */
+  .service {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+    box-sizing: border-box;
+  }
+  
+  .service h2 {
+    font-size: 20px;
+    margin-top: 0;
+    color:white;
+  }
+  
+  .service p {
+    font-size: 16px;
+    color:white;
+  }
+  
+  /* Estilos para dispositivos de pantalla más pequeños */
+  @media (max-width: 768px) {
+    .service {
+      width: 50%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .service {
+      width: 100%;
+    }
+  }
+  
